@@ -74,7 +74,9 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+# Ignore everything in Content folder
 Content/*
+
+# Allow Blueprint folder and its contents
 !Content/Blueprints/
-Content/Blueprints/*
-!Content/Blueprints/Widgets/
+!Content/Blueprints/**
