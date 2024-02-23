@@ -80,3 +80,5 @@ Content/*
 # Allow Blueprint folder and its contents
 !Content/Blueprints/
 !Content/Blueprints/**
+!Content/Assets
+!Content/Assets/**
