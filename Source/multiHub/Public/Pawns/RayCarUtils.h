@@ -17,7 +17,11 @@ struct FSuspension {
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float stiffnes = 500.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float dumping = 10.0f;
+	float damper = 10.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float minForce = -2000.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float maxForce = 5000.0f;
 };
 
 
